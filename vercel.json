@@ -1,8 +1,11 @@
 {
-  "routes": [
+  "redirects": [{"source": "/a",       "destination": "/important-info",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://rockinr.previewmyapp.com/$1"
- }
+      "source": "/(.*)",
+      "destination": "https://rockinr.previewmyapp.com/$1"
+    }
   ]
 }
+    
